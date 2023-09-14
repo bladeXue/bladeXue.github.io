@@ -1,0 +1,389 @@
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.3.2">Jekyll</generator><link href="http://localhost:4000/feed.xml" rel="self" type="application/atom+xml" /><link href="http://localhost:4000/" rel="alternate" type="text/html" /><updated>2023-09-14T14:42:36+08:00</updated><id>http://localhost:4000/feed.xml</id><title type="html">Your awesome title</title><subtitle>Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.</subtitle><entry><title type="html">Welcome to Jekyll!</title><link href="http://localhost:4000/jekyll/update/2023/09/14/welcome-to-jekyll.html" rel="alternate" type="text/html" title="Welcome to Jekyll!" /><published>2023-09-14T12:42:16+08:00</published><updated>2023-09-14T12:42:16+08:00</updated><id>http://localhost:4000/jekyll/update/2023/09/14/welcome-to-jekyll</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/09/14/welcome-to-jekyll.html"><![CDATA[<p>You’ll find this post in your <code class="language-plaintext highlighter-rouge">_posts</code> directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run <code class="language-plaintext highlighter-rouge">jekyll serve</code>, which launches a web server and auto-regenerates your site when a file is updated.</p>
+
+<p>Jekyll requires blog post files to be named according to the following format:</p>
+
+<p><code class="language-plaintext highlighter-rouge">YEAR-MONTH-DAY-title.MARKUP</code></p>
+
+<p>Where <code class="language-plaintext highlighter-rouge">YEAR</code> is a four-digit number, <code class="language-plaintext highlighter-rouge">MONTH</code> and <code class="language-plaintext highlighter-rouge">DAY</code> are both two-digit numbers, and <code class="language-plaintext highlighter-rouge">MARKUP</code> is the file extension representing the format used in the file. After that, include the necessary front matter. Take a look at the source for this post to get an idea about how it works.</p>
+
+<p>Jekyll also offers powerful support for code snippets:</p>
+
+<figure class="highlight"><pre><code class="language-ruby" data-lang="ruby"><span class="k">def</span> <span class="nf">print_hi</span><span class="p">(</span><span class="nb">name</span><span class="p">)</span>
+  <span class="nb">puts</span> <span class="s2">"Hi, </span><span class="si">#{</span><span class="nb">name</span><span class="si">}</span><span class="s2">"</span>
+<span class="k">end</span>
+<span class="n">print_hi</span><span class="p">(</span><span class="s1">'Tom'</span><span class="p">)</span>
+<span class="c1">#=&gt; prints 'Hi, Tom' to STDOUT.</span></code></pre></figure>
+
+<p>Check out the <a href="https://jekyllrb.com/docs/home">Jekyll docs</a> for more info on how to get the most out of Jekyll. File all bugs/feature requests at <a href="https://github.com/jekyll/jekyll">Jekyll’s GitHub repo</a>. If you have questions, you can ask them on <a href="https://talk.jekyllrb.com/">Jekyll Talk</a>.</p>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[You’ll find this post in your _posts directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run jekyll serve, which launches a web server and auto-regenerates your site when a file is updated.]]></summary></entry><entry><title type="html">Test</title><link href="http://localhost:4000/jekyll/update/2023/09/14/test.html" rel="alternate" type="text/html" title="Test" /><published>2023-09-14T12:42:16+08:00</published><updated>2023-09-14T12:42:16+08:00</updated><id>http://localhost:4000/jekyll/update/2023/09/14/test</id><content type="html" xml:base="http://localhost:4000/jekyll/update/2023/09/14/test.html"><![CDATA[<h1 id="markdown指南">Markdown指南</h1>
+<p>Markdown是一种轻量级的易用的书写语法。本文是Markdown的一个快速指南<sup id="fnref:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>。</p>
+
+<h2 id="什么是markdown">什么是Markdown？</h2>
+<p>Markdown是一种通过少量简单的标记字符来格式化文本的方法。您可以用纯文本来书写文档，然后在阅读时呈现一个美观的排版。</p>
+
+<p>其实并没有一个标准的Markdown语法，很多编辑器都会添加自己的扩展语法。不同于此，为了兼容性，VNote仅仅支持那些被广泛使用的基本语法。</p>
+
+<h2 id="如何上手markdown">如何上手Markdown？</h2>
+<p>如果刚接触Markdown，那么比较好的一个方法是逐个学习Markdown语法。刚开始，懂得标题和强调语法就能够写出基本的文档；然后，每天可以学习一个新的语法并不断练习。</p>
+
+<h2 id="语法指南">语法指南</h2>
+<p>下面是VNote支持的Markdown语法的一个概览。</p>
+
+<h3 id="标题">标题</h3>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="gh"># This is a &lt;h1&gt; tag</span>
+<span class="gu">## This is a &lt;h2&gt; tag</span>
+<span class="gu">###### This is a &lt;h6&gt; tag</span>
+</code></pre></div></div>
+
+<p><strong>注意</strong>：</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">#</code>之后需要至少一个空格</li>
+  <li>一个标题应该占一整行</li>
+</ul>
+
+<h3 id="强调">强调</h3>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="ge">*This text will be italic*</span>
+<span class="ge">_This text will be italic_</span>
+
+<span class="gs">**This text will be bold**</span>
+<span class="gs">__This text will be bold__</span>
+</code></pre></div></div>
+
+<p><em>This text will be italic</em>
+<em>This text will be italic</em></p>
+
+<p><strong>This text will be bold</strong>
+<strong>This text will be bold</strong></p>
+
+<p><strong>注意</strong>：</p>
+
+<ul>
+  <li>VNote推荐使用<code class="language-plaintext highlighter-rouge">*</code></li>
+  <li>如果渲染错误，请尝试在第一个<code class="language-plaintext highlighter-rouge">*</code>之前以及最后一个<code class="language-plaintext highlighter-rouge">*</code>之后添加一个空格。如果被标记的文本是以全角符号开始或结尾，一般都需要前后添加一个空格</li>
+</ul>
+
+<h3 id="列表">列表</h3>
+<h4 id="无序列表">无序列表</h4>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">*</span> Item 1  
+只是一段在Item 1下面的文字。需要注意上面一行结尾有两个空格。
+<span class="p">*</span> Item 2
+<span class="p">    *</span> Item 2a
+<span class="p">    *</span> Item 2b
+<span class="p">*</span> Item 3
+
+使用一个空行来来结束一个列表。
+</code></pre></div></div>
+
+<ul>
+  <li>Item 1<br />
+只是一段在Item 1下面的文字。需要注意上面一行结尾有两个空格。</li>
+  <li>Item 2
+    <ul>
+      <li>Item 2a</li>
+      <li>Item 2b</li>
+    </ul>
+  </li>
+  <li>Item 3</li>
+</ul>
+
+<p>使用一个空行来来结束一个列表。</p>
+
+<h4 id="有序列表">有序列表</h4>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">1.</span> Item 1
+<span class="p">1.</span> Item 2  
+注意，列表前面的序号其实是无关紧要的，渲染时Markdown会自动修改该序号。
+<span class="p">3.</span> Item 3
+<span class="p">    1.</span> Item 3a
+<span class="p">    2.</span> Item 3b
+<span class="p">4.</span> Item 4
+</code></pre></div></div>
+
+<ol>
+  <li>Item 1</li>
+  <li>Item 2<br />
+注意，列表前面的序号其实是无关紧要的，渲染时Markdown会自动修改该序号。</li>
+  <li>Item 3
+    <ol>
+      <li>Item 3a</li>
+      <li>Item 3b</li>
+    </ol>
+  </li>
+  <li>Item 4</li>
+</ol>
+
+<h3 id="表格">表格</h3>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>| col 1 | col 2 | col 3 |
+| --- | --- | --- |
+| cell1 | cell2 | cell3 |
+| cell4 | cell5 | cell6 |
+</code></pre></div></div>
+
+<table>
+  <thead>
+    <tr>
+      <th>col 1</th>
+      <th>col 2</th>
+      <th>col 3</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>cell1</td>
+      <td>cell2</td>
+      <td>cell3</td>
+    </tr>
+    <tr>
+      <td>cell4</td>
+      <td>cell5</td>
+      <td>cell6</td>
+    </tr>
+  </tbody>
+</table>
+
+<h3 id="图片和链接">图片和链接</h3>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">![</span><span class="nv">Image Alt Text</span><span class="p">](</span><span class="sx">/url/to/image.png</span> <span class="nn">"Optional Text"</span><span class="p">)</span>
+
+<span class="p">![</span><span class="nv">Image Alt Text</span><span class="p">](</span><span class="sx">/url/to/image.png</span> <span class="nn">"Image specified with width and height"</span> =800x600)
+
+<span class="p">![</span><span class="nv">Image Alt Text</span><span class="p">](</span><span class="sx">/url/to/image.png</span> =800x600)
+
+<span class="p">![</span><span class="nv">Image Alt Text</span><span class="p">](</span><span class="sx">/url/to/image.png</span> <span class="nn">"Image specified with width"</span> =800x)
+
+<span class="p">![</span><span class="nv">Image Alt Text</span><span class="p">](</span><span class="sx">/url/to/image.png</span> <span class="nn">"Image specified with height"</span> =x600)
+
+<span class="p">[</span><span class="nv">Link Text</span><span class="p">](</span><span class="sx">/url/of/the/link</span><span class="p">)</span>
+</code></pre></div></div>
+
+<p><strong>注意</strong>：</p>
+
+<ul>
+  <li>VNote不推荐使用参考式的图片链接。VNote不会预览这些图片。</li>
+</ul>
+
+<h3 id="块引用">块引用</h3>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>As VNote suggests:
+<span class="gt">
+&gt; VNote is the best Markdown note-taking application</span>
+<span class="gt">&gt; ever.  </span>
+<span class="gt">&gt;</span>
+<span class="gt">&gt; THere is two spaces after `ever.` above to insert a</span>
+<span class="gt">&gt; new line.</span>
+
+It also suggests:
+<span class="gt">
+&gt; VNote is good.  </span>
+Here is another sentence within the quote.
+</code></pre></div></div>
+
+<p>As VNote suggests:</p>
+
+<blockquote>
+  <p>VNote is the best Markdown note-taking application
+ever.</p>
+
+  <p>THere is two spaces after <code class="language-plaintext highlighter-rouge">ever.</code> above to insert a
+new line.</p>
+</blockquote>
+
+<p>It also suggests:</p>
+
+<blockquote>
+  <p>VNote is good.<br />
+Here is another sentence within the quote.</p>
+</blockquote>
+
+<p><strong>注意</strong>：</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">&gt;</code>标记后面需要至少一个空格</li>
+  <li>多行连续的引用可以只在第一行添加标记</li>
+</ul>
+
+<h3 id="代码块">代码块</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```lang
+This is a fenced code block.
+```
+
+~~~
+This is another fenced code block.
+~~~
+</code></pre></div></div>
+
+<div class="language-html highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="nt">&lt;div</span> <span class="na">id=</span><span class="s">"container"</span><span class="nt">&gt;</span>
+  <span class="nt">&lt;p</span> <span class="na">class=</span><span class="s">"para"</span><span class="nt">&gt;</span>This is a test.<span class="nt">&lt;/p&gt;</span>
+<span class="nt">&lt;/div&gt;</span>
+</code></pre></div></div>
+
+<div id="container">
+  <p class="para">This is a test.</p>
+</div>
+
+<p><strong>注意</strong>：</p>
+
+<ul>
+  <li><code class="language-plaintext highlighter-rouge">lang</code>用于指定代码块的代码语言，可选；如果不指定，VNote不会尝试高亮代码
+    <ul>
+      <li>请访问<a href="https://prismjs.com/#supported-languages">Prism</a>获取一个完整的支持语言列表</li>
+    </ul>
+  </li>
+  <li>总是在一个代码块前面添加一个空行是一个不错的实践</li>
+</ul>
+
+<h3 id="图表">图表</h3>
+<p>VNote支持使用以下引擎来绘制图表。您需要使用代码块，并标明特定语言，然后在代码块里面定义图表。</p>
+
+<ul>
+  <li><a href="http://flowchart.js.org/">Flowchart.js</a>，语言为<code class="language-plaintext highlighter-rouge">flow</code>或<code class="language-plaintext highlighter-rouge">flowchart</code></li>
+  <li><a href="https://mermaidjs.github.io/">Mermaid</a>，语言为<code class="language-plaintext highlighter-rouge">mermaid</code></li>
+  <li><a href="https://wavedrom.com/">WaveDrom</a>，数字时序图，语言为<code class="language-plaintext highlighter-rouge">wavedrom</code></li>
+</ul>
+
+<p>例如，</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```flowchart
+st=&gt;start: Start:&gt;http://www.google.com[blank]
+e=&gt;end:&gt;http://www.google.com
+op1=&gt;operation: My Operation
+sub1=&gt;subroutine: My Subroutine
+cond=&gt;condition: Yes
+or No?:&gt;http://www.google.com
+io=&gt;inputoutput: catch something...
+
+st-&gt;op1-&gt;cond
+cond(yes)-&gt;io-&gt;e
+cond(no)-&gt;sub1(right)-&gt;op1
+```
+</code></pre></div></div>
+
+<h4 id="uml">UML</h4>
+<p>VNote支持<a href="http://plantuml.com/">PlantUML</a>来实现UML图表。您需要使用代码块，并标明语言为<code class="language-plaintext highlighter-rouge">puml</code>，然后在代码块里面定义图表。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```puml
+@startuml
+Bob -&gt; Alice : hello
+@enduml
+```
+</code></pre></div></div>
+
+<h4 id="graphviz">Graphviz</h4>
+<p>VNote支持<a href="http://www.graphviz.org/">Graphviz</a>来绘制图表。您需要使用代码块，并标明语言为<code class="language-plaintext highlighter-rouge">dot</code>，然后在代码块里面定义图表。</p>
+
+<h3 id="数学公式">数学公式</h3>
+<p>VNote通过<a href="https://www.mathjax.org/">MathJax</a>来支持数学公式。默认的<strong>公式块</strong>的分隔符是<code class="language-plaintext highlighter-rouge">$$...$$</code>，<strong>行内公式</strong>的分隔符是<code class="language-plaintext highlighter-rouge">$...$</code>。</p>
+
+<ul>
+  <li>行内公式不能跨多行</li>
+  <li>形如<code class="language-plaintext highlighter-rouge">3$abc$</code>/<code class="language-plaintext highlighter-rouge">$abc$4</code>/<code class="language-plaintext highlighter-rouge">$ abc$</code>和<code class="language-plaintext highlighter-rouge">$abc $</code>的不会被解析为公式</li>
+  <li>使用<code class="language-plaintext highlighter-rouge">\</code>转义<code class="language-plaintext highlighter-rouge">$</code></li>
+  <li>开始的<code class="language-plaintext highlighter-rouge">$$</code>之前以及结束的<code class="language-plaintext highlighter-rouge">$$</code>之后都只允许出现空格字符</li>
+  <li>在公式块中，使用<code class="language-plaintext highlighter-rouge">\\</code>来换行</li>
+</ul>
+
+<p>VNote也可以使用标明语言<code class="language-plaintext highlighter-rouge">mathjax</code>的代码块来实现公式块。</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>```mathjax
+$$
+J(\theta) = \frac 1 2 \sum_{i=1}^m (h_\theta(x^{(i)})-y^{(i)})^2
+$$
+```
+</code></pre></div></div>
+
+<p>公式块支持公式序号：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$$vnote x markdown = awesome$$ (1.2.1)
+</code></pre></div></div>
+
+<h3 id="行内代码">行内代码</h3>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Here is a <span class="sb">`inline code`</span>.
+</code></pre></div></div>
+
+<p>Here is a <code class="language-plaintext highlighter-rouge">inline code</code>.</p>
+
+<p>如果想输入一个<code class="language-plaintext highlighter-rouge">`</code>，需要使用两个<code class="language-plaintext highlighter-rouge">`</code>来括住它，例如<code class="language-plaintext highlighter-rouge">`` ` ``</code>。要输入两个<code class="language-plaintext highlighter-rouge">`</code>，则需要使用三个<code class="language-plaintext highlighter-rouge">`</code>。</p>
+
+<h3 id="删除线">删除线</h3>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Here is a ~~text~~ with strikethrough.
+</code></pre></div></div>
+
+<p>Here is a <del>text</del> with strikethrough.</p>
+
+<h3 id="任务列表">任务列表</h3>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="p">*</span> [x] this is a complete item.
+<span class="p">*</span> [ ] this is an incomplete item.
+</code></pre></div></div>
+
+<ul class="task-list">
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" checked="checked" />this is a complete item.</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />this is an incomplete item.</li>
+</ul>
+
+<h3 id="脚注">脚注</h3>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is a footnote [^1].
+
+<span class="p">[</span><span class="ss">^1</span><span class="p">]:</span> <span class="sx">Here</span> is the detail of the footnote.
+</code></pre></div></div>
+
+<p>This is a footnote <sup id="fnref:1:1" role="doc-noteref"><a href="#fn:1" class="footnote" rel="footnote">1</a></sup>.</p>
+
+<h3 id="上标和下标">上标和下标</h3>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>This is the 1^st^ superscript.
+
+This is the H~2~O subscript.
+</code></pre></div></div>
+
+<p>This is the 1^st^ superscript.</p>
+
+<p>This is the H~2~O subscript.</p>
+
+<h3 id="警告">警告</h3>
+<div class="language-md highlighter-rouge"><div class="highlight"><pre class="highlight"><code>::: alert-info
+
+这是一个信息文本。
+
+:::
+
+::: alert-danger
+
+这是一个危险文本。
+
+:::
+</code></pre></div></div>
+
+<p>::: alert-info</p>
+
+<p>这是一个信息文本。</p>
+
+<p>:::</p>
+
+<p>::: alert-danger</p>
+
+<p>这是一个危险文本。</p>
+
+<p>:::</p>
+
+<p>可用的一些警告形式如下：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>alert-primary
+alert-secondary
+alert-success
+alert-info
+alert-warning
+alert-danger
+alert-light
+alert-dark
+</code></pre></div></div>
+
+<h3 id="换行和段落">换行和段落</h3>
+<p>如果需要换行，您应该在当前行末尾添加两个空格，然后换行。VNote提供快捷键<code class="language-plaintext highlighter-rouge">Shift+Enter</code>来辅助用户输入两个空格并换行。</p>
+
+<p>如果需要一个新的段落，您应该先插入一个空行然后才输入新的段落的文本。</p>
+
+<p>一般来说，您应该在一个块元素（例如代码块、列表和块引用）后面插入一个空行来显式结束该元素。</p>
+
+<div class="footnotes" role="doc-endnotes">
+  <ol>
+    <li id="fn:1" role="doc-endnote">
+      <p>该指南参考了<a href="https://guides.github.com/features/mastering-markdown/">Mastering Markdown</a>。 <a href="#fnref:1" class="reversefootnote" role="doc-backlink">&#8617;</a> <a href="#fnref:1:1" class="reversefootnote" role="doc-backlink">&#8617;<sup>2</sup></a></p>
+    </li>
+  </ol>
+</div>]]></content><author><name></name></author><category term="jekyll" /><category term="update" /><summary type="html"><![CDATA[Markdown指南 Markdown是一种轻量级的易用的书写语法。本文是Markdown的一个快速指南1。 该指南参考了Mastering Markdown。 &#8617;]]></summary></entry></feed>
